@@ -1,0 +1,11 @@
+[project]
+name = "python-mastery-lab"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "A staged Python mastery learning workspace"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+addopts = "-q"
