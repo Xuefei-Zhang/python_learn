@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import pytest
 
-pytestmark = pytest.mark.skip(reason="Phase 0 manual exercise: unskip when ready to implement")
+# pytestmark = pytest.mark.skip(reason="Phase 0 manual exercise: unskip when ready to implement")
 
 from systems.mission_tracker import MissionTracker
 
